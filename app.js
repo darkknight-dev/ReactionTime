@@ -44,8 +44,8 @@ function makeBox() {
         left = left * 500;
 
         document.getElementById("box").style.display = "block";
-        document.getElementById("box").style.top = top + "px";
-        document.getElementById("box").style.left = left + "px";
+        document.getElementById("box").style.top = (top)/10 + "rem";
+        document.getElementById("box").style.left = (left)/10 + "rem";
         document.getElementById("box").style.background = randomColor();
         createdTime = Date.now();
         console.log(createdTime);
